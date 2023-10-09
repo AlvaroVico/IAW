@@ -11,22 +11,29 @@ Click nbfs://nbhost/SystemFileSystem/Templates/Project/PHP/PHPProject.php to edi
         <meta charset="utf-8"/>
     </head>
   <?php     
-      //LLamada a la función
-                  $variab1= "Alejandro";
-                  $variab2= "Madrid";
-                  $variab3= 2004;
-                 nacimiento($variab1,$variab2,$variab3);
-                 
-                 echo "<br>";
-                 
-                        function naci($nombr, $ciuda, $años) {
-                   echo "$nombr vive en $ciuda en el año $años";
-                  }
-                  
-
-                //LLamada a la función
-                 
-                 nacimiento("Alejandro","Madrid",2004);
+         for ($y=50; $y <=80; $y=$y+2){
+                   echo $y, " ";
+               }
+            echo "<br>";
+               for ($c=17; $c >=-17; $c--){
+                   echo $c, " ";
+               }
+            echo "<br>";
+                for ($d=0; $d <=10; $d++){
+                    echo $d * 6, " ";
+                }
+            echo "<br>";
+                $e=0;
+               while($e<=10){
+                   echo $e, " ";
+                   $e++;
+               }
+            echo "<br>";
+                $f=50;
+               while($f<=80){
+                   echo $f," ";
+                   $f=$f+2;
+               }
 ?>      
 </body>
 </html>
